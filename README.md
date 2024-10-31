@@ -98,4 +98,4 @@ This project is licensed under the MIT License.
 
 For any questions or feedback, please reach out to the authors at:
 
-- Nadhir Hassen: \texttt{madhir.hassen@umontreal.ca}
+- Nadhir Hassen: \texttt{nadhir.hassen@umontreal.ca}
