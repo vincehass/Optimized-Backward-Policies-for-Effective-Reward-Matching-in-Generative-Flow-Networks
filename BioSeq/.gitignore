@@ -1,0 +1,14 @@
+__pycache__
+.vscode
+*.out
+*.pt
+*.pkl
+*.ipynb_checkpoints
+*.sh
+*.ipynb
+results/
+*.csv
+wandb/
+tmp/
+*.zip
+Doc/tfbind/chunk.md

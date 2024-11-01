@@ -63,10 +63,17 @@ while not converged:
 
 ### Getting Started
 
+Create a new conda environment:
+
+```bash
+conda create -n albert python=3.7 && conda activate albert
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.6 -c pytorch -c conda-forge
+```
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/vincehass/Optimized-Backward-Policies-for-Effective-Reward-Matching-in-Generative-Flow-Networks.git
-   cd OBP-GFN-timeseries
+   cd BioSeq
    ```
 2. **Install dependencies**:
    ```bash
@@ -74,7 +81,7 @@ while not converged:
    ```
 3. **Run experiments**:
    ```bash
-   python experiments/run_time_series.py
+   python run_tfbind_delta.py --gen_do_explicit_Z 1 --acq_fn ucb --radius_option proxy_var --min_radius 0.5 --max_radius 0.5 --sigma_coeff 5
    ```
 
 ### Contributions
