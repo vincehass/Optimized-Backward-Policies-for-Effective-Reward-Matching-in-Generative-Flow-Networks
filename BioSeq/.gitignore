@@ -12,3 +12,4 @@ wandb/
 tmp/
 *.zip
 Doc/tfbind/chunk.md
+BioSeq
