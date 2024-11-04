@@ -697,7 +697,7 @@ def main(args):
     torch.manual_seed(args.seed)
     np.random.seed(args.seed)
     args.logger = get_logger(args)
-    args.device = torch.device('cuda')
+    args.device = torch.device('cpu')
     oracle = get_oracle(args)
     dataset = get_dataset(args, oracle)
     

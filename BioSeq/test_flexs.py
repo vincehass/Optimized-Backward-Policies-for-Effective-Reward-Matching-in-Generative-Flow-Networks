@@ -61,14 +61,14 @@ def test_gfp():
 
 if __name__ == '__main__':
     print('Testing Flexs')
-    print('Testing AAV...')
-    test_aav()
+    # print('Testing AAV...')
+    # test_aav()
     # print('Testing RNA binding...')
     # test_rna_binding()
-    # print('Testing TF binding...')
-    # test_tfbinding()
-    print('Testing GFP...')
-    test_gfp()
-    print('Testing Rosetta...')
-    test_rosetta()
+    print('Testing TF binding...')
+    test_tfbinding()
+    # print('Testing GFP...')
+    # test_gfp()
+    # print('Testing Rosetta...')
+    # test_rosetta()
     
